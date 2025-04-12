@@ -11,9 +11,13 @@ Allow saving sketches of suspects for later use
 How to Use It:
 
 Run the program with a webcam: python cctv_sketch_generator.py
+
 Or with a video file: python cctv_sketch_generator.py --source path_to_video.mp4
+
 The system will display both the video feed with face detection and a sketch of any detected face
+
 Press 's' to save the current sketch
+
 Press 'q' to quit the program
 
 Requirements:
