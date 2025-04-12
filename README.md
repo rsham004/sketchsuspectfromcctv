@@ -3,12 +3,12 @@ Sketch a suspect from CCTV feed
 
 This code creates a system that can:
 
-Detect faces in CCTV video footage
-Extract facial features using MediaPipe's face detection and mesh models
-Generate sketch-like renderings of detected faces
-Allow saving sketches of suspects for later use
+1. Detect faces in CCTV video footage<lr>
+2. Extract facial features using MediaPipe's face detection and mesh models
+3. Generate sketch-like renderings of detected faces
+4. Allow saving sketches of suspects for later use
 
-How to Use It:
+**How to Use It:**
 
 Run the program with a webcam: python cctv_sketch_generator.py
 
@@ -23,10 +23,10 @@ Press 'q' to quit the program
 Requirements:
 You'll need to install the following Python libraries:
 
-OpenCV (cv2)
-MediaPipe
-NumPy
-Pillow (PIL)
+1. OpenCV (cv2)
+2. MediaPipe
+3. NumPy
+4. Pillow (PIL)
 
 Limitations:
 This implementation provides a basic sketch generation capability. For production use, you might want to:
